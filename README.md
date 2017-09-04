@@ -11,7 +11,7 @@ I made a very simple orm just made for getting data easier than how Expo's SQLit
 
 First you have to import it (duuh?).
 ```
-var Exem = require("Exem")("data.db")
+var Exem = require("exem")("data.db")
 ```
 
 Now that we have Exem we can create models,  we will create a `Customer` model that we will use to work with our `customer` table.

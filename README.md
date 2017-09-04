@@ -87,15 +87,15 @@ So a successful promise will return's a ResultSet object from Expo's module. You
 
 ```
 Store.select({id: 5}).then((result) => {
-	let store = result.rows.item(0)
-	if (store) {
-		console.log("Found Store", store))
-	} else {
-		throw "Couldn't find store"
-	}		
+    let store = result.rows.item(0)
+    if (store) {
+        console.log("Found Store", store))
+    } else {
+        throw "Couldn't find store"
+    }		
 }).catch((error) => {
-	// Expo's module may also throw an exception as well
-	console.warn("Error occurred", error) 
+    // Expo's module may also throw an exception as well
+    console.warn("Error occurred", error) 
 })
 ```
 

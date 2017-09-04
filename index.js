@@ -39,9 +39,6 @@ class Table {
 
     execute_sql(query, params) {
         params = params || []
-
-        console.log("Executed query:", query, params)
-
         exec = (resolve, reject) => {
             let resolve_func = (tx, results) => { return resolve(results) }
             let reject_func = (tx, results) => { return reject(results) }

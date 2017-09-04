@@ -55,13 +55,7 @@ Store.all()
 
 #### Search
 ```
-Store.select({name: "less", address: "Thomas Stre"}
-// SELECT * FROM store WHERE name like '%less%' OR address LIKE '%Thomas Stre%'
-```
-
-#### Search
-```
-Store.select({name: "less", address: "Thomas Stre"}
+Store.search({name: "less", address: "Thomas Stre"}
 // SELECT * FROM store WHERE name like '%less%' OR address LIKE '%Thomas Stre%'
 ```
 

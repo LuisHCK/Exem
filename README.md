@@ -14,7 +14,7 @@ First you have to import it (duuh?).
 var Exem = require("exem")("data.db")
 ```
 
-Now that we have Exem we can create models,  we will create a `Customer` model that we will use to work with our `customer` table.
+Now that we have Exem we can create models,  we will create a `Store` model that we will use to work with our `store` table.
 ```
 var Store = db.table("store")
 ```

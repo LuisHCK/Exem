@@ -1,0 +1,15 @@
+{
+  "name": "exem",
+  "version": "1.0.0",
+  "description": "An orm/wrapper for Expo's SQLite module...",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "expo": "^20.1.2"
+  }
+}
